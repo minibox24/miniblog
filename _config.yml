@@ -1,0 +1,53 @@
+name: MiniBlog
+
+description: Minibox's Blog
+
+avatar: https://cdn.discordapp.com/attachments/722779235374202891/734682474134634537/2.png
+
+navigation:
+  - name: Blog
+    url: /
+  - name: About
+    url: /about
+  - name: Archive
+    url: /archive
+  - name: Tags
+    url: /tags
+
+paginate: 5
+
+footer-links:
+  email: minibox724@gmail.com
+  github: minibox724
+  youtube: channel/UCh0tGy7-lTPlHTU43tY5tPA
+  discord: 310247242546151434
+
+footer-text: © 2020 Minibox
+
+google_analytics: UA-178410218-1
+disqus: miniblog-8
+
+permalink: /:title/
+paginate_path: /page:num/
+
+version: v1.2.0
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
