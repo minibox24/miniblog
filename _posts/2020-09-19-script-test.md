@@ -9,7 +9,7 @@ comments: true
 
 ---
 
-<div id="monaco" style="width:60vh;height:50vh;"></div>
+<div id="monaco" style="height:60vh;"></div>
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.16.2/min/vs/loader.js"></script>
