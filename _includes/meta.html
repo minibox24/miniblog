@@ -27,8 +27,13 @@
 
     <meta name="og:site_name" content="MiniBlog">
     <meta property="og:title" content="{{ page.title }}">
+
+    {% if page.excerpt %}
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}">
+    {% else %}
     <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+
     <meta name="theme-color" content="#000000">
     <meta property="og:image" content="https://cdn.discordapp.com/attachments/722779235374202891/734682474134634537/2.png">
     <meta name="twitter:card" content="summary">
-    <meta name="test" content="{{ page.excerpt }}">
