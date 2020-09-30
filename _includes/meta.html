@@ -5,7 +5,15 @@
 
     <meta property="og:type" content="website"> 
     <meta name="og:site_name" content="MiniBlog">
+    
+    {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+    <meta property="og:title" content="MiniBlog">
+    <meta name="twitter:title" content="MiniBlog">
+    {% endif %}
+
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt | strip_html }}">
     <meta name="description" content="{{ page.excerpt | strip_html }}">
@@ -20,6 +28,7 @@
     <meta property="og:url" content="https://blog.minibox.pw{{ page.url }}">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ page.title }}">
+
+
 
     <link rel="canonical" href="https://blog.minibox.pw{{ page.url }}"/>
