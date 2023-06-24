@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "크롬 초기 렉 없애기"
-tags: [windows]
+tags: [windows, chromium, startup, idle, lag, slow, v8, electron, 20s, 20sec]
 comments: true
 ---
 
