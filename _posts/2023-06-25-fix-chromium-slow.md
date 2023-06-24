@@ -5,6 +5,12 @@ tags: [windows, chromium, startup, idle, lag, slow, v8, electron, 20s, 20sec]
 comments: true
 ---
 
+크로미움 기반 브라우저나 일렉트론 앱에서 대략 20초동안 프로그램이 시작되지 않는 문제를 해결하는 방법
+
+---
+
+크로미움 기반 브라우저나 일렉트론 앱에서 대략 20초동안 프로그램이 시작되지 않는 문제를 해결하는 방법
+
 https://github.com/minibox24/miniblog/assets/61264156/b36bd1af-65b8-459e-b69c-670a17112de8
 
 Before
